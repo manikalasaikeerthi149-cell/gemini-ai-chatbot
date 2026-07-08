@@ -1,60 +1,141 @@
 # 🤖 Gemini AI Chatbot
 
-A modern AI chatbot built using Python, Flask, HTML, CSS, JavaScript, and Google Gemini API.
+A modern AI chatbot built with **Python, Flask, Google Gemini API, HTML, CSS, and JavaScript**. The chatbot supports real-time responses using Google Search grounding and provides a clean, user-friendly chat interface.
 
-## Features
+---
 
-- AI-powered conversations
-- Responsive UI
-- Weather information
-- Cryptocurrency price lookup
-- Modern chat interface
-- Easy to customize
+## 📸 Screenshots
 
-## Tech Stack
+### Home Screen
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c16f5fed-f3fb-4f62-9f60-08afdca8de02" />
+
+
+### Weather Query
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc85fb79-6853-4e07-a63a-1f52ed45dc71" />
+
+
+### Bitcoin Price Query
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cf27150e-a5da-44c9-9560-366f59f42e5a" />
+
+
+---
+
+## ✨ Features
+
+- 💬 Interactive AI chatbot
+- 🌐 Real-time information using Google Search
+- 🧠 Conversation history
+- 🎨 Modern responsive UI
+- 🗑️ Clear chat functionality
+- ⚡ Fast Flask backend
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
 - Flask
+- Google Gemini API
 - HTML5
 - CSS3
 - JavaScript
-- Google Gemini API
 
-## Installation
+---
 
-```bash
-git clone https://github.com/yourusername/gemini-ai-chatbot.git
-cd gemini-ai-chatbot
-pip install -r requirements.txt
-python app.py
+## 📂 Project Structure
+
+```
+Gemini-AI-Chatbot/
+│── chat.py
+│── requirements.txt
+│── .env
+│── .gitignore
+│── README.md
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   ├── style.css
+│   └── script.js
+│
+└── screenshots/
+    ├── home.png
+    ├── weather.png
+    └── bitcoin.png
 ```
 
-Open:
+---
+
+## 🚀 Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Gemini-AI-Chatbot.git
+```
+
+### Go to the project folder
+
+```bash
+cd Gemini-AI-Chatbot
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Create a `.env` file
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+### Run the application
+
+```bash
+python chat.py
+```
+
+Open your browser and visit:
 
 ```
 http://127.0.0.1:5000
 ```
 
-## Screenshots
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26935157-367a-4b32-bc6a-3e52ecb3bb7e" />
+---
 
+## 💡 Example Questions
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ea38990-36d4-408c-a80e-a460ef1203c4" />
+- What is the weather in Mumbai?
+- What is the current Bitcoin price?
+- Latest AI news
+- Explain Machine Learning
+- Tell me an interesting fact
+- Summarize today's technology news
 
+---
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c548fba-eb28-4753-9e26-f98df846935f" />
+## 📌 Future Enhancements
 
+- 🎤 Voice Assistant
+- 🌙 Dark Mode
+- 📄 Chat Export
+- 📎 File Upload
+- 🌍 Multi-language Support
 
+---
 
+## 👩‍💻 Author
 
-## Future Improvements
+**Sai Keerthi**
 
-- Dark Mode
-- Chat History
-- Voice Input
-- Image Upload
-- User Authentication
+LinkedIn:https://www.linkedin.com/in/saikeerthi914182?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
-## Author
+GitHub:https://github.com/manikalasaikeerthi149-cell
 
-Sai Keerthi
+---
+
+⭐ If you found this project helpful, don't forget to star the repository!
